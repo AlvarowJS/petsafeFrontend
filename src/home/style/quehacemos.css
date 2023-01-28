@@ -1,6 +1,7 @@
 .aside__do {
     
     z-index: 100;
+    width: 100%;
 }
 
 .aside__do_title {
@@ -24,6 +25,5 @@
     .aside__do_container {
         display: flex;
         justify-content: space-around;
-        
     }
 }
