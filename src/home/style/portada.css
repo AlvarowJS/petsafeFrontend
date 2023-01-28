@@ -1,0 +1,49 @@
+.header_info {
+    position: relative;
+    z-index: 10;
+    margin-left: 50px;
+    margin-top: 270px;
+}
+
+.header_info_title {
+    font-size: 50px;    
+    margin: 0;
+}
+
+.header_info_text {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header_info_button {
+    background-color: #FEC107;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    border-width: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.portada {
+    top: 0;
+    position: absolute;
+    right: 0;
+    height: 600px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 720px) {
+    .header_info_title {
+        font-size: 100px;
+        margin: 0;
+    }
+    .header_info {
+        position: relative;
+        z-index: 10;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+}

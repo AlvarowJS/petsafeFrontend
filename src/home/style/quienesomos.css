@@ -1,0 +1,45 @@
+.aside__who{
+    position: absolute;
+    top: 600px;
+    z-index: 100;
+}
+.aside_who_info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aside_who_title{
+    text-align: center;
+    font-size: 32px;
+}
+.aside__who_cat{
+    width: 100%;
+    
+}
+.aside_who_descripcion{
+    margin-left: 10px;
+}
+.aside_who_boton{
+    margin-left: 100px;
+    background-color: #FEC107;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    border-width: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 720px){
+    .aside__who_cat{
+        width: 570px;
+        height: 350px;
+    }
+    .aside_who_descripcion{
+        margin-top: 80px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
