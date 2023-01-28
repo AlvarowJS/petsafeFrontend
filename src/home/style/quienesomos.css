@@ -4,8 +4,7 @@
     z-index: 100;
 }
 .aside_who_info{
-    display: flex;
-    justify-content: space-around;
+    display: flex;    
     flex-wrap: wrap;
 }
 .aside_who_title{
@@ -17,7 +16,8 @@
     
 }
 .aside_who_descripcion{
-    margin-left: 10px;
+    text-align: center;
+
 }
 .aside_who_boton{
     margin-left: 100px;
@@ -33,6 +33,11 @@
 }
 
 @media screen and (min-width: 720px){
+    .aside_who_info{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
     .aside__who_cat{
         width: 570px;
         height: 350px;
